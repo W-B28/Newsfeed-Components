@@ -46,7 +46,8 @@ function createMenu(data){
 
   menu.append(unorderedList);
   document.querySelector('.menu-button').addEventListener('click', function(){
-    menu.classList.toggle('menu-open');
+    console.log("turtle turtle")
+    menu.classList.toggle('menu--open');
   })
   return menu
 }
